@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <h1 style="text-align: center;">MULTIPLICATOR CALCULATOR</h1>
+        <p>In this project I am showing how fuction works under javascript. Since we know that java is also a programming language needed for the creation of a responsive webpage or websites. So here we are creating a multiplicator calculator using javascript. Well in this you just need to pay attention to my code, then afterward we would be developing it bit by bit.</p>
+        <script>
+            function f5(a,b,c)
+            { var w2=a*b*c;
+                document.write(w2+"<br>");
+            }
+            f5(50.7,75.4,66.05)//all this are called argument.
+
+            function f5(h, i, j) {
+                    var t2 = h * i * j;
+                    document.write(t2 + "<br>");
+                }
+                f5(57, 45, 23)//all this are called argument.
+            //This is called scope of variables
+                 function f6(x,y,z){
+                    var r1=x*y*z;
+                    return r1;
+                 }
+                 document.write(f6(4,3,5)+"<br>");   
+
+               function f7(x, y, z) {
+                    var y1 = x * y * z;
+                    return y1;
+                }
+                document.write(f7(50, 67, 98) + "<br>");   
+
+
+
+            </script>
+    </body>
+</html>
